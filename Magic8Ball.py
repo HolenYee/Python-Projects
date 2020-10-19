@@ -8,6 +8,8 @@ answers = ("It is certain.", "Yes.", "Most likely.", "Ask again later.", "Reply 
 while True:
     input("What do you want to ask the Magic 8 Ball? ")
     # Letting them ask a question
+    print("Please wait a moment...")
+    # In progress message
     print(choice(answers))
     # Giving them a random answer
     resume = input("Do you want to ask another question? (Type 'Continue' or 'Quit') ")
